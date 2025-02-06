@@ -1,0 +1,11 @@
+[
+    {
+      "course": "Master of Information Technology Management",
+      "institution":"Illinois Institute of Technology",
+      "startDate": "Jan, 2024",
+      "endDate": "May, 2025",
+      "gpa": "3.85/4.0",
+      "imageSrc": "education/illinoisTech.png"
+
+    }
+]
