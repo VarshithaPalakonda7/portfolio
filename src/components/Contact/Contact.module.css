@@ -1,5 +1,8 @@
 @import "../../vars.css";
 
+*{
+  box-sizing: border-box;
+}
 .container {
   color: var(--color-text);
   margin-top: 120px;
@@ -35,13 +38,19 @@
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 15px;
+  padding:10px 0;
 }
 
-.link a {
+.link img{
+  width: 24px;
+  height:auto;
+}
+
+.link a{
   color: var(--color-text);
   text-decoration: none;
-  font-size: 30px;
+  font-size: calc(14px + 0.5vw);
   font-weight: 400;
   letter-spacing: 1.5px;
 }
@@ -53,12 +62,23 @@
   }
 
   .text {
-    display: flex;
-    flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
   .links {
     align-items: center;
   }
+  .link{
+    align-items: center;
+    padding:5px 0;
+  }
+  .link img{
+    width:20px;
+  }
+  .link a{
+    font-size: 14px;
+    text-align: center;
+  }
+ 
 }
