@@ -8,6 +8,7 @@
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   max-width: 345px;
+  min-height: 350px;
 }
 
 .image {
@@ -23,6 +24,16 @@
   margin-top: 6px;
   font-size: 25px;
   font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: medium;
+}
+
+.readMore {
+  color: var(--color-text);
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 .skills {

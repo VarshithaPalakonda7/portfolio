@@ -4,7 +4,7 @@
       "organisation": "Smart Rewards Inc",
       "startDate": "Dec, 2024",
       "endDate": "Present",
-      "experiences": ["Worked on Windows 11", "Designed the control panel"],
+      "experiences": ["Assisting in UX design and prototyping using Figma.","Developing interactive React-based components.","Collaborating with developers for seamless implementation."],
       "imageSrc": "history/SmartRewards.png"
     },
     {
@@ -12,7 +12,7 @@
       "organisation": "Illinois Tech",
       "startDate": "July, 2024",
       "endDate": "Sept, 2024",
-      "experiences": ["Worked on Windows 11", "Designed the control panel"],
+      "experiences": ["Worked in a team to develop PlanItNow, an event planning applicatio using React.js and Django.","Followed Agile/Scrum methodologies, improving system efficiency for event organizers."],
       "imageSrc": "history/illinoisTech.png"
     },
     {
@@ -20,7 +20,7 @@
       "organisation": "Infosys",
       "startDate": "Nov, 2021",
       "endDate": "Nov, 2023",
-      "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
+      "experiences": ["Developed responsive web applications using Angular, NodeJS, JavaScript, and TypeScript.","Optimized performance, integrated RESTful APIs, and collaborated with designers to enhance user experience."],
       "imageSrc": "history/infosys.png"
     }
 ]

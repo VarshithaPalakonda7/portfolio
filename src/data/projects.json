@@ -1,26 +1,23 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Plan It Now",
+      "imageSrc": "projects/planItNow.png",
+      "description": "Developed a collaborative event planning platform using React.js that enables seamless event organization and real-time collaboration. Implemented features for event creation, team coordination, and schedule management.",
+      "skills": ["React", "Node", "TailwindCSS"],
+      "source": "https://github.com/VarshithaPalakonda7/PDCP"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Payroll Management System",
+      "imageSrc": "projects/payrollManagementSystem.png",
+      "description": "A full-stack Payroll Management System using React.js and MySQL that streamlines employee data management and payroll operations. Features include salary calculations, employee records management, and comprehensive reporting capabilities.",
+      "skills": ["React", "Express", "Node", "MySQL"],
+      "source": "https://github.com/VarshithaPalakonda7/Payroll-Management-System"
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Portfolio using React",
+      "imageSrc": "projects/portfolio.png",
+      "description": "This is my personal portfolio website, designed to showcase my skills, experience, and projects in frontend development. Built with React, this platform serves as a professional space where I highlight my expertise in modern web technologies, user-friendly design, and interactive web applications.",
+      "skills": ["React", "Figma", "HTML", "CSS","JavaScript"],
+      "source": "https://github.com/VarshithaPalakonda7/portfolio"
     }
   ]

@@ -1,12 +1,14 @@
 
-import React from "react";
+import React ,{useState} from "react";
 
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
 
 export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo, source },
+  project: { title, imageSrc, description, skills, source },
 }) => {
+  const [showMore, setShowMore] = useState(false);
+  const maxDescriptionLength = 100;
   return (
     <div className={styles.container}>
       <img
@@ -15,7 +17,14 @@ export const ProjectCard = ({
         className={styles.image}
       />
       <h3 className={styles.title}>{title}</h3>
-      <p className={styles.description}>{description}</p>
+      <p className={styles.description}> {showMore || description.length <= maxDescriptionLength
+          ? description
+          : `${description.substring(0, maxDescriptionLength)}... `}
+        {description.length > maxDescriptionLength && (
+          <span className={styles.readMore} onClick={() => setShowMore(!showMore)}>
+            {showMore ? " Show Less" : " Read More"}
+          </span>
+        )}</p>
       <ul className={styles.skills}>
         {skills.map((skill, id) => {
           return (
@@ -26,10 +35,7 @@ export const ProjectCard = ({
         })}
       </ul>
       <div className={styles.links}>
-        <a href={demo} className={styles.link}>
-          Demo
-        </a>
-        <a href={source} className={styles.link}>
+        <a href={source} className={styles.link} target="_blank">
           Source
         </a>
       </div>
