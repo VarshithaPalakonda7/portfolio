@@ -1,12 +1,11 @@
 import React from "react";
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
-// import cvFile from "../../../assets/hero/VarshithaPalakonda.pdf";
 
 export const Hero = () => {
     const downloadCV = () => {
         const link = document.createElement("a");
-        link.href = "../../../assets/hero/VarshithaPalakonda.pdf"; 
+        link.href = "../../../assets/hero/Varshitha Palakonda.pdf";
         link.download = "Varshitha_Palakonda_CV.pdf"; 
         document.body.appendChild(link);
         link.click();
@@ -16,7 +15,7 @@ export const Hero = () => {
         <section className={styles.container}>
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi, I'm Varshitha</h1>
-                <p className={styles.description}>I'm a frontend developer with 3 years of experience in Angular, React and NodeJS. Reach out if you'd like to learn more!</p>
+                <p className={styles.description}>A frontend developer passionate about crafting responsive, high-performance apps using React and Angular. Reach out if you'd like to learn more!</p>
                 <div>
                 <a href="mailto:vpalakonda@hawk.iit.edu" className={styles.contactBtn}>Contact Me</a>
                 <a onClick={downloadCV} className={styles.downloadBtn}>
@@ -24,7 +23,7 @@ export const Hero = () => {
                 </a>
                 </div>
           </div>
-            <img src={getImageUrl("hero/profile.jpg")} alt="Profile Image" className={styles.heroImg}/>
+            <img src={getImageUrl("hero/myImage.jpg")} alt="Profile Image" className={styles.heroImg}/>
             <div className={styles.topBlur} />
             <div className={styles.bottomBlur} />
         </section>

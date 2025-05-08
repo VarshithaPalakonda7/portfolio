@@ -8,12 +8,7 @@ export const About = () => {
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
-        {/* <img
-          src={getImageUrl("about/aboutImage.png")}
-          alt="Me sitting with a laptop"
-          className={styles.aboutImage}
-        /> */}
-        <ul className={styles.aboutItems}>
+        {/* <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
@@ -33,7 +28,11 @@ export const About = () => {
               </p>
             </div>
           </li>
-        </ul>
+        </ul> */}
+         <p className={styles.about}>
+          I'm Varshitha Palakonda, a frontend developer and UX designer with 2.7 years of experience building responsive, user-focused web and mobile applications. Currently pursuing my Master’s in IT and Management at Illinois Tech, I specialize in React.js, Angular, and modern UI frameworks. I love creating intuitive interfaces that blend design and performance seamlessly.
+         </p>
+
       </div>
     </section>
   );

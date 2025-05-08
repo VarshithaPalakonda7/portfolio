@@ -3,14 +3,14 @@
       "role": "UI/UX Designer",
       "organisation": "Smart Rewards Inc",
       "startDate": "Dec, 2024",
-      "endDate": "Present",
-      "experiences": ["Assisting in UX design and prototyping using Figma.","Developing interactive React-based components.","Collaborating with developers for seamless implementation."],
+      "endDate": "Feb 2025",
+      "experiences": ["Designed UX model and prototyping using Figma.","Developing interactive React-based components.","Collaborating with developers for seamless implementation."],
       "imageSrc": "history/SmartRewards.png"
     },
     {
       "role": "React Developer and UX Designer",
       "organisation": "Illinois Tech",
-      "startDate": "July, 2024",
+      "startDate": "June, 2024",
       "endDate": "Sept, 2024",
       "experiences": ["Worked in a team to develop PlanItNow, an event planning applicatio using React.js and Django.","Followed Agile/Scrum methodologies, improving system efficiency for event organizers."],
       "imageSrc": "history/illinoisTech.png"

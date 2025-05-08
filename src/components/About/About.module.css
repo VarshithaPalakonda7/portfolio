@@ -17,6 +17,7 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .content {
@@ -24,7 +25,12 @@
   flex-direction: row;
   align-items: center;
 }
-
+.about {
+  font-size: 30px;
+  font-family: var(--font-roboto);
+  margin-bottom: 52px;
+  color: var(--color-text);
+}
 /* .aboutImage {
   width: 15%;
 } */
